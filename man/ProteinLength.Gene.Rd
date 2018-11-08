@@ -18,5 +18,8 @@ ProteinLength(object)
   \item{object}{
 A list that contains a character string called CDS.
 }
+\item{...}{
+Additional arguments
+}
 }
 

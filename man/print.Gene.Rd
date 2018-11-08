@@ -17,5 +17,8 @@ print.Gene(object)
   \item{object}{
 A list that contains character strings called ID, symbol, and CDS.
 }
+\item{...}{
+Additional arguments
+}
 }
 
