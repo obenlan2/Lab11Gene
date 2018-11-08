@@ -11,7 +11,7 @@ This function will return the length of a protein from a given CDS of a gene.
 \usage{
 \method{ProteinLength}{Gene}(object, ...)
 
-ProteinLength(object)
+ProteinLength(object, ...)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{

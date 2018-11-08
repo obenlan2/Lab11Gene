@@ -35,10 +35,10 @@ ProteinLength.Gene <- function(object, ...){
   return(p_length)
 }
 
-print.Gene <- function(object, ...){
-  cat(paste("Gene ID:", object$ID),
-      paste("Symbol:", object$symbol),
-      paste(ProteinLength(object), "amino acids"),
+print.Gene <- function(x, ...){
+  cat(paste("Gene ID:", x$ID),
+      paste("Symbol:", x$symbol),
+      paste(ProteinLength(x), "amino acids"),
       sep = "\n")
 }
 

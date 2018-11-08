@@ -8,13 +8,11 @@ Print Gene ID, Symbol, and Protein Length
 This function will print out the gene ID, gene symbol, and length of a protein encoded by the gene.
 }
 \usage{
-\method{print}{Gene}(object, ...)
-
-print.Gene(object)
+\method{print}{Gene}(x, ...)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{object}{
+  \item{x}{
 A list that contains character strings called ID, symbol, and CDS.
 }
 \item{...}{
